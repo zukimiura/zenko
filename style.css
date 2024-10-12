@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 200px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+}
+
+#menu-toggle:checked + label + .menu {
+    display: block;
+}
+
+/* Logo and Tagline */
+header {
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.logo {
+    font-size: 4rem;
+    color: #4b6b47;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.mission {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
